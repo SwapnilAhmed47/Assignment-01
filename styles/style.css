@@ -1,0 +1,384 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* header style */
+.header{
+    background-image: url(../img/Hero-bg.png);
+}
+
+/* nav style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+.nav-title{
+    font-size: 35px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+.nav-button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
+    border: none;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
+/* banner style */
+.banner{
+    text-align: center;
+    padding: 144px 267px 152px;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    padding: 0px 50px;
+    
+}
+
+.banner-button{
+    background-color:#4E47FF ;
+    font-size: 16px;
+    padding: 12px 36px;
+    border: none;
+    color:#FFFFFF ;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.banner-button:hover{
+    background-color: brown;
+}
+
+/* main */
+body {
+    background-color: #F5F8FF;
+}
+
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+
+section{
+    margin-top: 131px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 20px;
+}
+
+.action-description{
+    font-size: 24px;
+    font-weight: 400;
+    color: #252432;
+    margin-bottom: 25px;
+    
+}
+
+.action-button{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-container{
+    max-width: 517px;
+}
+
+.action-img{
+    border-radius: 48px;
+}
+
+.user-number{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0px;
+    
+}
+
+.user-status{
+    font-size: 20px;
+    font-weight: 400px;
+    color: 000000;
+    margin: 0px;
+    
+}
+
+.user-number-info{
+    text-align: center;
+    
+    
+}
+
+.user-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    
+}
+
+.user{
+    text-align: center;
+    background-color:#E5E7FF ;
+    padding: 50px 142px;
+    border-radius: 24px;
+}
+
+/* card section */
+
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+
+}
+
+.name{
+    margin: 0px;
+}
+
+.date{
+    margin: 0px;
+}
+
+.icon{
+    height: 16px;
+    width: 17px;
+}
+
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.cards{
+    background-color: white;
+    padding: 24px;
+    border-radius: 14px;
+}
+
+.card-title{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.name{
+    margin: 10px;
+    color: #757575;
+    
+}
+
+.card-description{
+    color: #1E1E1E;
+    font-size: 20px;
+    margin-top: 0px;
+    
+}
+.des{
+    margin: 24px 0px;
+}
+.date{
+    margin: 10px;
+    color: #B3B3B3;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+}
+
+.focus{
+    text-align: center;
+    background-color: white;
+    border-radius:14px ;
+    padding: 71px 150px;
+    
+}
+
+.focus-img{
+    border-radius: 48px;
+}
+
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    
+}
+.focus-description{
+    color: #757575;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.focus-btn{
+    padding: 12px 36px;
+    font-size: 16px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.focus-btn:hover{
+    background-color: brown;
+}
+
+.title{
+    margin-top: -55px;
+}
+
+.contact-title{
+    font-size: 97px;
+    font-weight: bold;
+    color:  #000000;;
+
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    
+    
+}
+
+form input{
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    border: none;
+    margin-bottom: 24px;
+    width: 100%;
+    font-weight: 600;
+}
+
+form textarea{
+    border: none;
+    width: 93%;
+    font-weight: 600;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #B3B3B3;
+    margin-bottom: 24px;
+    border-radius: 10px;
+
+}
+
+form{
+    width: 50%;
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+form ::placeholder{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.submit-btn{
+    padding: 19px 201px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border: none;
+    white-space: nowrap; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+
+.foot{
+    margin-top: 104px;
+    background-color: white;
+    text-align: center;
+    padding: 104px 455px;
+}
+
+.footer-para{
+    font-size: 20px;
+    color: #757575;
+}
+
+.about{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+footer div a{
+    text-decoration: none;
+    color: #757575;
+}
