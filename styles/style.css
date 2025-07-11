@@ -307,7 +307,7 @@ form input{
     margin-bottom: 24px;
     width: 100%;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 0 20px;
 }
 
@@ -317,7 +317,7 @@ form ::placeholder{
 
 form textarea{
     border: none;
-    width: 93%;
+    width: 100%;
     font-weight: 600;
     padding: 20px;
     font-size: 20px;
@@ -330,6 +330,7 @@ form textarea{
 
 form{
     width: 50%;
+    
     
 }
 
@@ -344,7 +345,7 @@ form{
 
 
 .submit-btn{
-    padding: 19px 201px;
+    padding: 19px 260px;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
@@ -353,12 +354,21 @@ form{
     white-space: nowrap; 
     border-radius: 10px;
     cursor: pointer;
+    
+}
+
+.submit-btn:hover{
+    background-color: rgb(205, 205, 243);
+    color: #4E47FF;
+    box-shadow: 2px 4px 4px 4px gray;
+    
 }
 
 .footer-title{
     font-size: 100px;
     font-weight: 900;
     color: #4E47FF;
+    font-weight: 900;
     margin-bottom: 0px;
 }
 
